@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Resume</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat&display=swap" rel="stylesheet">
+    <style>
+        html {
+            box-sizing: border-box;
+        }
+
+        *,
+        *:before,
+        *:after {
+            box-sizing: inherit;
+
+        }
+
+        body {
+            background-color: #ccc4c4;
+            margin: 0;
+            padding: 0;
+            font-family: 'Montserrat', sans-serif;
+            font-size: 15px;
+            line-height: 1.45;
+
+            html {
+                box-sizing: border-box;
+            }
+
+            *,
+            *:before,
+            *:after {
+                box-sizing: inherit;
+
+            }
+
+        }
+
+        img {
+            width: 300px;
+        }
+
+        a {
+            color: #42b9cc;
+        }
+
+        a:hover {
+            text-decoration: none;
+        }
+
+        .content-wrap {
+            max-width: 800px;
+            width: 85%;
+            margin: 0 auto;
+            padding: 10px 0;
+            background: #717692;
+        }
+
+
+        h1,
+        h2 {
+            font-family: 'Caveat', cursive;
+            margin: 10px;
+
+        }
+
+        h1 {
+            font-size: 45px;
+            line-height: 1.1;
+        }
+
+        .content-wrap h1 {
+            background: #a1a4ba;
+        }
+
+        h3 {
+            margin: 10px;
+            /* font-weight: bold;
+            font-size: 1.17em; */
+            /* display: inline-block; */
+        }
+
+        p {
+            margin: 10px;
+        }
+
+        p.projects {
+            background: #a1a4ba;
+
+            font-weight: bold;
+            font-size: 1.17em;
+        }
+
+        .projects a {
+            color: #2f3061;
+        }
+
+        a.link {
+            color: #F7FFF7;
+            background: #2F3061;
+            text-decoration: none;
+            padding: 4px;
+            border-radius: 4px;
+            display: inline-block;
+        }
+
+        /* .project-item {
+            overflow: hidden;
+        }
+
+        .project-item img {
+            float: left;
+        }  */
+
+        img[src="images/coffee1.jpg"] {
+            position: relative;
+            /* z-index: -1px; */
+            max-width: fit-content;
+            width: 15%;
+            float: right;
+
+        }
+
+        /* .education {
+            display: inline-block;
+            max-width: 800px;
+            width: 85%; 
+            background-color: #2F3061;
+            background-image: url(images/unsplashPencil.jpg);
+            background-repeat: no-repeat;
+            background-position: top right;
+            background-size: cover;
+        } */
+    </style>
+</head>
+
+<body>
+    <main>
+        <!-- ***********************  ABOUT / PROFILE  *********************** -->
+        <header>
+            <div class="content-wrap">
+                <h1>Lily Lee</h1>
+                <h2>Support Engineer</h2>
+
+                <p>HTML | JavaScript | CSS | Linux/Windows | TcpIP | Regular Expression | Cyber Security</p>
+                <p>SaaS support including configuration, scanning, testing, troubleshooting in HTTPs, TCP/IP Networking,
+                    Front-end application.
+                    Hands-on knowledge of Java, SQL and Django Web Framework</p>
+
+            </div>
+
+        </header>
+
+        <!-- ********************  PROJECTS / PORTFOLIO  ********************* -->
+        <section class="project-item">
+            
+            <div class="content-wrap">
+                
+                <h2>Projects</h2>
+                
+                <p class="projects"><img src="images/coffee1.jpg" alt="Built on Django Framework">
+                    View my projects on github <a class="link"
+                        href="https://lilyleegithub.github.io/about.html" target="_blank">LilyLee.com</a>
+
+                </p>
+            </div>
+            <!-- Copy the whole <section> block to add more projects. -->
+            <!-- <section>
+                  <h3>Project Name</h3>
+                  <img src="project-thumbnail.png" alt="description of image">
+                  <p>Summary or description of the project and/or your role in it. Add as many paragraphs as you need.</p>
+                  <a href="#" target="_blank">View project / case study</a>
+                </section> -->
+            <!-- End of Project block. -->
+        </section>
+
+        <!-- ***********************  WORK EXPERIENCE  *********************** -->
+        <section>
+            <div class="content-wrap">
+                <h2>Work Experience Most Recent</h2>
+                <!-- <p>Work Experience Summary.</p> -->
+                <!-- Copy this whole <section> block to add more jobs. -->
+                <section>
+                    <h3>Senior Support Engineer</h3>
+                    <p>Qualys CA Remote</p>
+                    <p>2021-2022</p>
+                    <p>Cyber Security Application scanning and testing using Qualys recorder for customers</p>
+                    <p>Skills: Network Engineering· Programming · Linux · Infrastructure · HTML5 · Object-Oriented
+                        Programming (OOP) · Postman · Regular Expressions · API · HTML · JavaScript · CSS</p>
+                    <!-- <p>Optional list:</p>
+                    <ul>
+                        <li>Delete this list if you don't need it.</li>
+                        <li>Created...</li>
+                        <li>Lead...</li>
+                        <li>Responsible for...</li>
+                    </ul> -->
+                </section>
+            </div>
+        </section>
+        <!-- End of Job block. -->
+        </section>
+
+        <!-- ******************  EDUCATION & CERTIFICATIONS ****************** -->
+        <section class="education">
+            <div class="content-wrap">
+                <h2>Education</h2>
+
+                <!-- Copy this whole <section> block to add more schools. -->
+                <section>
+                    <h3>Northeastern University Boston</h3>
+                    <p>Master: Management In Information Systems</p>
+                    <!-- <p>Summary or accomplishments.</p> -->
+                </section>
+                <!-- End of School block. -->
+            </div>
+        </section>
+
+        <!-- *****************  CONTACT INFO / SOCIAL MEDIA  ***************** -->
+        <footer>
+            <div class="content-wrap">
+                <h3 class="footerH3">Find Me in <a class="link" href="https://www.linkedin.com/"
+                        target="_blank">LinkedIn</a></h3>
+
+                <!-- Social media and contact links. Add or remove any networks. -->
+                <ul>
+                    <!-- <li><a href="mailto:email@example.com">email@example.com</a></li>
+                  <li><a href="http://yourwebsite.com" target="_blank">yourwebsite.com</a></li>
+                  <li><a href="#" target="_blank">Twitter</a></li> -->
+                    <!-- <li><a href="https://www.linkedin.com" target="_blank">LinkedIn</a></li> -->
+                    <!-- <li><a href="#" target="_blank">Facebook</a></li>   -->
+                </ul>
+            </div>
+        </footer>
+    </main>
+</body>
+
+</html>
